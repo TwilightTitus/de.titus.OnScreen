@@ -18,8 +18,12 @@ class Observer {
 		
 		this.executing = setTimeout(( () => {
 				console.log("execute");
+				const viewport = {
+						width: window.innerWidth,
+						height : window.innerHeight
+				};
 				this.listeners.forEach((aListener) => {
-				aListener.doChecking();
+					aListener.doChecking(viewport);
 			});
 		}).bind(this), 250);
 	
