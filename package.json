@@ -1,0 +1,26 @@
+{
+  "name": "de.titus.OnScreen",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwilightTitus/de.titus.OnScreen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwilightTitus/de.titus.OnScreen/issues"
+  },
+  "homepage": "https://github.com/TwilightTitus/de.titus.OnScreen#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
