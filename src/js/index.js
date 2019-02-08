@@ -1,2 +1,3 @@
-import OnScreen from "./OnScreen";
+import inView from "in-view";
+
 
